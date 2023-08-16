@@ -1,4 +1,4 @@
-package oop_concepts.carshowroom;
+package com.mansoor.java.projects.carshowroom;
 
 import java.util.Scanner;
 
