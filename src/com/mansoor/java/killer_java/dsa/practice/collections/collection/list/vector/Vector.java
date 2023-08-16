@@ -1,4 +1,4 @@
-package dsa.practice.collections.collection.list;
+package com.mansoor.java.killer_java.dsa.practice.collections.collection.list.vector;
 
 public class Vector {
     public static void main(String[] args) {
