@@ -1,4 +1,5 @@
-package strings;
+
+package com.mansoor.java.killer_java.strings;
 import java.io.*;
 import java.util.*;
 
