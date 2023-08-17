@@ -1,4 +1,4 @@
-package jdbc_connectivity;
+package com.mansoor.java.killer_java.jdbc_connectivity;
 
 import java.sql.Connection;
 import java.sql.*;
