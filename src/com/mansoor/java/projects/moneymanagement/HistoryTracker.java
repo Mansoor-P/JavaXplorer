@@ -56,33 +56,29 @@ public class HistoryTracker
 //        }
 
         try {
-            String url="jdbc:mysql://localhost:3306/moneymanagement";
-            String uname="root";
-            String pwd="1234";
-            Connection con = DriverManager.getConnection(url ,uname,pwd );
+            Connection con = db.establishConnection();
 
             Statement st=con.createStatement();
+
             ResultSet rs = st.executeQuery("select * from transactions");
 
             while (rs.next())
             {
-                System.out.println(String.format("\n| %-12s| %-15s| %-12s| %-30s",
+                System.out.println(String.format("\n %-13s  %-15s  %-8s  %-20s",
                         rs.getString("tran_date"),
                         rs.getDouble("amount"),
                         rs.getString("tran_type"),
                         rs.getString("note")));
-
             }
+            con.close();
+            st.close();
+            rs.close();
         }
         catch(Exception e)
         {
             System.out.println(e.getMessage());
         }
-//        System.out.println();
-//        System.out.println(builder);
-
     }
-
     public String transactionType(String input)
     {
         if(input.equals("credit") || input.equals("debit") ||input.equals("Credit") || input.equals("Debit"))
