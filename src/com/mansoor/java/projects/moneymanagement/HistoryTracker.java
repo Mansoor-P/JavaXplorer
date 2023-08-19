@@ -1,6 +1,7 @@
 package com.mansoor.java.projects.moneymanagement;
 
 import java.sql.*;
+import java.time.LocalTime;
 import java.util.*;
 
 public class HistoryTracker
@@ -48,46 +49,57 @@ public class HistoryTracker
     public void printHistory() throws Exception
     {
 
-        String HISTORY = String.format("\n| %-12s| %-10s| %-8s| %-9s", "📅Date", "💸Amount", "❓Type", "📝Note");
+        String HISTORY = String.format("\n| %-12s| %-15s| %-10s| %-15s", "📅Date", "💸Amount", "❓Type", "📝Note");
         System.out.println(HISTORY);
-//        StringBuilder builder = new StringBuilder();
-//        for (Transaction transaction : transactions) {
-//            builder.append(String.format("| %-12s| %-10.2f| %-8s| %-8s\n", transaction.date, transaction.amount, transaction.transactionType, transaction.note));
-//        }
 
         try {
-            Connection con = db.establishConnection();
+            String url="jdbc:mysql://localhost:3306/moneymanagement";
+            String uname="root";
+            String pwd="1234";
+            Connection con = DriverManager.getConnection(url ,uname,pwd );
 
             Statement st=con.createStatement();
-
             ResultSet rs = st.executeQuery("select * from transactions");
 
             while (rs.next())
             {
-                System.out.println(String.format("\n %-13s  %-15s  %-8s  %-20s",
+                System.out.println(String.format("\n| %-12s| %-15s| %-10s| %-15s",
                         rs.getString("tran_date"),
                         rs.getDouble("amount"),
                         rs.getString("tran_type"),
                         rs.getString("note")));
+
             }
-            con.close();
-            st.close();
-            rs.close();
         }
         catch(Exception e)
         {
             System.out.println(e.getMessage());
         }
+
     }
+
     public String transactionType(String input)
     {
         if(input.equals("credit") || input.equals("debit") ||input.equals("Credit") || input.equals("Debit"))
             return input;
         else System.out.println("transaction type required");
-            return  input;
+        return  input;
     }
 
     public static void main(String[] args) throws Exception {
+        LocalTime time= LocalTime.now();
+        int hour=time.getHour();
+        if(hour<11 ){
+            System.out.println("good morning");
+        } else if (hour>=12 && hour <16 ) {
+            System.out.println("good afternoon");
+        } else if (hour>=16 && hour < 19) {
+            System.out.println("good evining");
+        }
+        else{
+            System.out.println("Good night");
+        }
+
 
         HistoryTracker ht=new HistoryTracker();
         String options = """
