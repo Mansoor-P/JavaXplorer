@@ -35,13 +35,13 @@ public class db
             PreparedStatement psmt= con.prepareStatement(q);
 
             Scanner sc=new Scanner(System.in);
-            System.out.print("Enter your date dd/mm/yyyy");
+            System.out.print("Enter your date dd/mm/yyyy : ");
             String tran_date=sc.next();
-            System.out.print("Enter your amount");
+            System.out.print("Enter your amount : ");
             double amount=sc.nextDouble();
-            System.out.print("Enter your Transaction Type");
+            System.out.print("Enter your Transaction Type : ");
             String tran_type=sc.next();
-            System.out.print("Enter your Transaction Note");
+            System.out.print("Enter your Transaction Note : ");
             String note=sc.next();
 
             psmt.setString(1,tran_date);
