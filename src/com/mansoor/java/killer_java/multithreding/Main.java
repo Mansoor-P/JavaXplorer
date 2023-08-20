@@ -15,14 +15,6 @@ public class Main {
         e2.start();
         System.out.println("Thread-2");
 
-        Employee e3=new Employee();
-        e3.start();
-        System.out.println("Thread-3");
-
-        Employee e4=new Employee();
-        e4.start();
-        System.out.println("Thread-4");
-
         System.out.println(Thread.activeCount());
 
     }
