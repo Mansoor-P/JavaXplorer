@@ -14,6 +14,7 @@ public class ByLamda {
         };
         Thread t1=new Thread(r1,"T1");
         t1.start();
+        t1.join();
 
         Thread t2=new Thread(r2,"T2");
         t2.start();
