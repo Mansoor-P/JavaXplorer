@@ -9,11 +9,9 @@ public class Main {
 
         Employee e1=new Employee();
         e1.start();
-        System.out.println("Tread-1");
 
-        Employee e2=new Employee();
-        e2.start();
-        System.out.println("Thread-2");
+        Manager m1=new Manager();
+        m1.start();
 
         System.out.println(Thread.activeCount());
 
@@ -22,7 +20,14 @@ public class Main {
 class Employee extends  Thread{
     @Override
     public void run(){
-        System.out.println("run method from employee");
+        System.out.println("Run By Employee");
+    }
+}
+
+class Manager extends Thread{
+    @Override
+    public void run(){
+        System.out.println("Run By Manager");
     }
 
 }
