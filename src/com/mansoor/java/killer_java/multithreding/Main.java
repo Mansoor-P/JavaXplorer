@@ -9,7 +9,22 @@ public class Main {
 
         Employee e1=new Employee();
         e1.start();
+        System.out.println("Tread-1");
+
+        Employee e2=new Employee();
+        e2.start();
+        System.out.println("Thread-2");
+
+        Employee e3=new Employee();
+        e3.start();
+        System.out.println("Thread-3");
+
+        Employee e4=new Employee();
+        e4.start();
+        System.out.println("Thread-4");
+
         System.out.println(Thread.activeCount());
+
     }
 }
 class Employee extends  Thread{
