@@ -68,7 +68,6 @@ public class HistoryTracker
                         rs.getDouble("amount"),
                         rs.getString("tran_type"),
                         rs.getString("note")));
-
             }
         }
         catch(Exception e)
@@ -90,14 +89,14 @@ public class HistoryTracker
         LocalTime time= LocalTime.now();
         int hour=time.getHour();
         if(hour<11 ){
-            System.out.println("good morning");
+            System.out.println("Good Morning");
         } else if (hour>=12 && hour <16 ) {
-            System.out.println("good afternoon");
+            System.out.println("Good Afternoon");
         } else if (hour>=16 && hour < 19) {
-            System.out.println("good evining");
+            System.out.println("Good Evining");
         }
         else{
-            System.out.println("Good night");
+            System.out.println("Good Night");
         }
 
 
