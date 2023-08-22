@@ -1,4 +1,4 @@
-package dsa.practice.recurssion;
+package com.mansoor.java.killer_java.dsa.recurssion;
 
 public class StringInReverse {
     public static void reverse(String str,int inx){

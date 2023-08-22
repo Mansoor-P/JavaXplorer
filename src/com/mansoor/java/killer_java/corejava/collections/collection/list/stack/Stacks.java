@@ -1,4 +1,4 @@
-package dsa.practice.collections.collection.list.stack;
+package com.mansoor.java.killer_java.corejava.collections.collection.list.stack;
 import java.util.Stack;
 public class Stacks {
     public static void main(String[] args) {

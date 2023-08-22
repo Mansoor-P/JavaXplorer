@@ -1,4 +1,4 @@
-package dsa.practice.collections.collection.queue;
+package com.mansoor.java.killer_java.corejava.collections.collection.queue;
 
 import java.util.ArrayDeque;
 

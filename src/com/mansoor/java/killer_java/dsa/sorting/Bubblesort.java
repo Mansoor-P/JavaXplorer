@@ -1,4 +1,4 @@
-package dsa.practice.sorting;
+package com.mansoor.java.killer_java.dsa.sorting;
 
 import java.util.Arrays;
 

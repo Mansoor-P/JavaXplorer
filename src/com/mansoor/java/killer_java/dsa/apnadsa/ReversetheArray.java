@@ -1,4 +1,4 @@
-package dsa.practice.apnadsa.arrays;
+package com.mansoor.java.killer_java.dsa.apnadsa;
 
 public class ReversetheArray {
     public static void main(String[] args) {

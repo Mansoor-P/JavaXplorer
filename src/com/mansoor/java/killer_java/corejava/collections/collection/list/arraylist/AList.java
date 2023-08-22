@@ -1,4 +1,4 @@
-package dsa.practice.collections.collection.list.arraylist;
+package com.mansoor.java.killer_java.corejava.collections.collection.list.arraylist;
 
 import java.util.ArrayList;
 

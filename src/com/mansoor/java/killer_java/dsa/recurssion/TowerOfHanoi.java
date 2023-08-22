@@ -1,4 +1,4 @@
-package dsa.practice.recurssion;
+package com.mansoor.java.killer_java.dsa.recurssion;
 
 public class TowerOfHanoi {
     public static void towerofHanoi(int n,String src,String help , String des){

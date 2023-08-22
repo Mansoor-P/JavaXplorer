@@ -1,4 +1,4 @@
-package dsa.practice.recurssion;
+package com.mansoor.java.killer_java.dsa.recurssion;
 
 public class Factorial {
     public static int factorialnumber(int n){

@@ -1,5 +1,5 @@
 
-package com.mansoor.java.killer_java.corejava.exceptionhandling.strings;
+package com.mansoor.java.killer_java.corejava.strings;
 import java.util.*;
 
 public class LexicoOrder {

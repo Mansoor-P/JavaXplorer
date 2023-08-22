@@ -1,4 +1,4 @@
-package challenge;
+package com.mansoor.java.killer_java.practice.challenge;
 
 import java.text.NumberFormat;
 import java.util.Locale;

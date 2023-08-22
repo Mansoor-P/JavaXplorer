@@ -1,4 +1,4 @@
-package com.mansoor.java.killer_java.corejava.exceptionhandling.strings;
+package com.mansoor.java.killer_java.corejava.strings;
 
 public class PalindromesInArray {
     // Function to check if given String

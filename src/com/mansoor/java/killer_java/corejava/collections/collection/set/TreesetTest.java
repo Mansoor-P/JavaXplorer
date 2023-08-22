@@ -1,4 +1,4 @@
-package dsa.practice.collections.collection.set;
+package com.mansoor.java.killer_java.corejava.collections.collection.set;
 
 public class TreesetTest {
 

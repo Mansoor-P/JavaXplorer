@@ -1,4 +1,4 @@
-package dsa.practice.apnadsa.arrays;
+package com.mansoor.java.killer_java.dsa.apnadsa;
 
 import java.util.Arrays;
 

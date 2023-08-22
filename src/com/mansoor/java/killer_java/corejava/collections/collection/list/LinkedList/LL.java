@@ -1,4 +1,4 @@
-package dsa.practice.collections.collection.list.LinkedList;
+package com.mansoor.java.killer_java.corejava.collections.collection.list.LinkedList;
 import  java.util.*;
 public class LL {
     public static void main(String[] args) {

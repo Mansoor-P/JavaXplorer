@@ -1,4 +1,4 @@
-package date_time_api;
+package com.mansoor.java.killer_java.advancedjava.date_time_api;
 
 import java.sql.SQLOutput;
 import java.time.DayOfWeek;

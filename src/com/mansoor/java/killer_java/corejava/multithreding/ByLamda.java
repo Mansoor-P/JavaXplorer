@@ -1,4 +1,4 @@
-package com.mansoor.java.killer_java.corejava.exceptionhandling.multithreding;
+package com.mansoor.java.killer_java.corejava.multithreding;
 
 public class ByLamda {
     public static void main(String[] args) throws InterruptedException {

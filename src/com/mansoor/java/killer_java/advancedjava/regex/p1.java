@@ -1,4 +1,4 @@
-package com.mansoor.java.killer_java.advancedjava.jdbc_connectivity.regex;
+package com.mansoor.java.killer_java.advancedjava.regex;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package dsa.practice.recurssion;
+package com.mansoor.java.killer_java.dsa.recurssion;
 
 public class Printnumb {
     public static void printNumbers(int n){

@@ -1,4 +1,4 @@
-package com.mansoor.java.killer_java.corejava.exceptionhandling.multithreding;
+package com.mansoor.java.killer_java.corejava.multithreding;
 
 public class Main {
     public static void main(String[] args) {

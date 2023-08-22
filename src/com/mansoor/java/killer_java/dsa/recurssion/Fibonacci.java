@@ -1,4 +1,4 @@
-package dsa.practice.recurssion;
+package com.mansoor.java.killer_java.dsa.recurssion;
 
 public class Fibonacci {
     public static void printfibonacci(int a,int b,int n){

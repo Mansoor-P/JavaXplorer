@@ -1,4 +1,4 @@
-package dsa.practice.oops.datahiding;
+package com.mansoor.java.killer_java.corejava.datahiding;
 
 public class DataHiding {
     private static int add(int i,int j){

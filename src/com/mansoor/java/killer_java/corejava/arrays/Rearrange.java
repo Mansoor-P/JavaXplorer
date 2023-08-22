@@ -1,4 +1,4 @@
-package dsa.practice.arrays;
+package com.mansoor.java.killer_java.corejava.arrays;
 
 public class Rearrange {
 

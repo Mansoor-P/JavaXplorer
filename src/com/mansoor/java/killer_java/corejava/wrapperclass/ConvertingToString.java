@@ -1,4 +1,4 @@
-package com.mansoor.java.killer_java.corejava.exceptionhandling.wrapperclass;
+package com.mansoor.java.killer_java.corejava.wrapperclass;
 
 public class ConvertingToString {
     public static void main(String[] args) {

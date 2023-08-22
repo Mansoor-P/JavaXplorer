@@ -1,4 +1,4 @@
-package com.mansoor.java.killer_java.advancedjava.jdbc_connectivity.date_time_api;
+package com.mansoor.java.killer_java.advancedjava.date_time_api;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

@@ -1,4 +1,4 @@
-package dsa.practice.collections.map;
+package com.mansoor.java.killer_java.corejava.collections.map;
 
 import java.util.Hashtable;
 import java.util.Map;

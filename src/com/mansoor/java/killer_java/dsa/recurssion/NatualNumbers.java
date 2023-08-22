@@ -1,4 +1,4 @@
-package dsa.practice.recurssion;
+package com.mansoor.java.killer_java.dsa.recurssion;
 
 public class NatualNumbers {
     public static void sumofNumbers(int i,int n,int sum){
