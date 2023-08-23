@@ -1,11 +1,10 @@
 package com.mansoor.java.killer_java.functionalprograming.streams;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Main {
+public class EvenNumbers {
     public static void main(String[] args) {
         ArrayList <Integer> al=new ArrayList<>();
         al.add(1);
