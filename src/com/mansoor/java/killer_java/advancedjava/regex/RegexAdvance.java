@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class RegexAdvance {
     public static void main(String[] args) {
         String str="9874563210";
-        Pattern p=Pattern.compile("\\d{10}");
+        Pattern p=Pattern.compile("[987]{2}\\d{8}");
         Matcher m=p.matcher(str);
 
        while(m.find()){
