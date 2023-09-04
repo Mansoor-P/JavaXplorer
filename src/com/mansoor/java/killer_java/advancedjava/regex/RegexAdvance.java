@@ -5,12 +5,17 @@ import java.util.regex.Pattern;
 
 public class RegexAdvance {
     public static void main(String[] args) {
-        String str="Mansooor1234";
-        Pattern p=Pattern.compile("\\w+\\d");
+        String str="9874563210";
+        Pattern p=Pattern.compile("\\d{10}");
         Matcher m=p.matcher(str);
 
        while(m.find()){
            System.out.println(str.substring(m.start(),m.end()));
+       }
+       if (m.matches()){
+           System.out.println("Matched");
+       }else{
+           System.out.println("Not Matched");
        }
     }
 }
