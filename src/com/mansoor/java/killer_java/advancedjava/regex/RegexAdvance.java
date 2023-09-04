@@ -5,8 +5,8 @@ import java.util.regex.Pattern;
 
 public class RegexAdvance {
     public static void main(String[] args) {
-        String str="Mansoor How Are You";
-        Pattern p=Pattern.compile("[a-z]+");
+        String str="Mansoormunaf";
+        Pattern p=Pattern.compile("Mansoor.");
         Matcher m=p.matcher(str);
 
        while(m.find()){
