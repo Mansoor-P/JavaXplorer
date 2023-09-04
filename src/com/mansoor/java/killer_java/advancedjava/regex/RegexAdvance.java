@@ -5,8 +5,8 @@ import java.util.regex.Pattern;
 
 public class RegexAdvance {
     public static void main(String[] args) {
-        String str="Mansooor1234abcd";
-        Pattern p=Pattern.compile("[a-zA-Z_0-9]");
+        String str="Mansooor1234";
+        Pattern p=Pattern.compile("\\w+\\d");
         Matcher m=p.matcher(str);
 
        while(m.find()){
