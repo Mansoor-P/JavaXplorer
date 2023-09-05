@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class BinaryToDecimal {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-
+        System.out.println("Enter any Binary Number");
         int binary_num=sc.nextInt();
 
         int ans=0;
