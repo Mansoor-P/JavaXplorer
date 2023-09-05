@@ -10,7 +10,7 @@ public class EmailChecking {
         System.out.println("Enter Your Email");
         String email=sc.next();
 
-        Pattern pattern=Pattern.compile("^[A-Za-z0-9+_.-]+@(.+)$");
+        Pattern pattern=Pattern.compile("^[A-Za-z0-9+_.-]+@+gmail(.+)+com$");
         Matcher matcher=pattern.matcher(email);
 
         if (matcher.matches()){
