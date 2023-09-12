@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Occurence {
-    static void printarray(){
+    static void printArray(){
         Scanner sc =new Scanner(System.in);
 
         System.out.println("enter element size ");
@@ -25,7 +25,7 @@ public class Occurence {
 
     public static void main(String[] args) {
 
-        printarray();
+        printArray();
 
     }
 }
