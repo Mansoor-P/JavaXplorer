@@ -16,11 +16,11 @@ public class HistoryTracker
         Transaction transaction = new Transaction();
         System.out.print("Enter date DD/MM/YYYY  📅: ");
         transaction.date = scanner.next();
-//        if (!transaction.date.matches(Transaction.DATE_REGEX))
-//        {
-//            System.out.println("Invalid date");
-//            return;
-//        }
+        if (!transaction.date.matches(Transaction.DATE_REGEX))
+        {
+            System.out.println("Invalid date");
+            return;
+        }
 
 
         System.out.print("Enter amount you spend 💸: ");
