@@ -10,5 +10,7 @@ public class DtFormating {
         DateTimeFormatter dtf= DateTimeFormatter.ofPattern("dd-mm-yyyy HH:mm:ss");
         String formattedDate = ld.format(dtf);
         System.out.println(formattedDate);
+
+        System.out.println("Munaf Mansoor");
     }
 }
