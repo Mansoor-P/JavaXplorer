@@ -35,5 +35,6 @@ public class TargetSum {
         int target = sc.nextInt();
 
         System.out.println(targetSum(arr,target));
+
     }
 }
