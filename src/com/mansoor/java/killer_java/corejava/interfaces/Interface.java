@@ -75,6 +75,7 @@ class Interface {
     public static void main (String[] args) {
 
         // creating an instance of Bicycle
+
         // doing some operations
         Bicycle bicycle = new Bicycle();
         bicycle.changeGear(2);
