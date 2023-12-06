@@ -10,6 +10,6 @@ public  class Student{
     }
 
     public void setRollNo(int rollNo) {  // setter
-        rollNo = rollNo;
+       this.rollNo = rollNo;
     }
 }

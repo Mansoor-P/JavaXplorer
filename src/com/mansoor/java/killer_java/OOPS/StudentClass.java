@@ -8,9 +8,10 @@ public class StudentClass {
         x.name="Mansoor";  // initialization
         x.percent=92.5;
 //        x.rollNo=1234;
-        System.out.println(x.getRollNo());
+//        System.out.println(x.getRollNo());
 
         x.setRollNo(18);
+        System.out.println(x.getRollNo());
 
     }
 }
