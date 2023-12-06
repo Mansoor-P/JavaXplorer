@@ -10,7 +10,7 @@ public class StudentClass {
     }
 
     public static void main(String[] args) {
-        Student x=new Student(); // decloration
+        Student x=new Student(); // declaration and x is the Object
 
         x.name="Mansoor";  // initialization
         x.rollNo=1234;
