@@ -8,7 +8,9 @@ public class StudentClass {
         double percent;
 
     }
-
+    public static void fun(Student x){
+    System.out.println(x.name);
+    }
     public static void main(String[] args) {
         Student x=new Student(); // declaration and x is the Object
 
@@ -16,6 +18,7 @@ public class StudentClass {
         x.rollNo=1234;
         x.percent=92.5;
 
-        System.out.println(x.name +" "+x.rollNo+"    "+x.percent);
+        fun(x);
+//        System.out.println(x.name +" "+x.rollNo+" "+x.percent);
     }
 }
