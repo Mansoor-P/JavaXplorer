@@ -14,7 +14,7 @@ public class NatualNumbers {
 
     static void printIncresing(int n){  // 1,2,3.....n-1,n
         if(n==1){
-            System.out.println(n);  // base case
+            System.out.println(n);  // base case  or Halting Condition
             return;
         }
         printIncresing(n-1); // 1,2,3.....n-1
