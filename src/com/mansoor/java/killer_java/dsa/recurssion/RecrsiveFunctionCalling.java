@@ -1,6 +1,6 @@
 package com.mansoor.java.killer_java.dsa.recurssion;
 
-public class RecrsiveFuns {
+public class RecrsiveFunctionCalling {
     static void fun1(){
         int x=1;
         fun2();
