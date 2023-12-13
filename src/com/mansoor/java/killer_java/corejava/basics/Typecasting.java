@@ -1,4 +1,4 @@
-package com.mansoor.java.killer_java.basics;
+package com.mansoor.java.killer_java.corejava.basics;
 
 public class Typecasting {
     static int i = 10; // Static variable
