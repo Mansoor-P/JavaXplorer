@@ -1,4 +1,4 @@
-package com.mansoor.java.killer_java.basics;
+package com.mansoor.java.killer_java.corejava.basics;
 
 public class TernaryOperator {
     public static void main(String[] args) {
