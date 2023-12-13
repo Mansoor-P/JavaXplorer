@@ -1,4 +1,4 @@
-package com.mansoor.java.killer_java.corejava.multithreding;
+package com.mansoor.java.killer_java.multithreding;
 
 public class BYAnonymous {
     public static void main(String[] args) {
