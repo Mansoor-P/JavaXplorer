@@ -2,7 +2,7 @@ package com.mansoor.java.killer_java.multithreding;
 
 public class ByLamda {
     public static void main(String[] args) throws InterruptedException {
-
+      //   Creating Threads by anonymous and lamda expressions
         Runnable r1=() -> {
             for (int i = 0; i < 5; i++) {
                 System.out.println("Thread"+Thread.currentThread().getName());
