@@ -25,4 +25,3 @@ class HR implements Runnable{
     }
 }
 
-    Creating Threads by anonymous and lamda expressions
