@@ -11,6 +11,7 @@ public class Test {
     }
 }
 
+                                    //Creating Threads by implimenting runnable interface
 class User implements  Runnable{
     @Override
     public void run(){
@@ -24,3 +25,4 @@ class HR implements Runnable{
     }
 }
 
+    Creating Threads by anonymous and lamda expressions
