@@ -1,4 +1,4 @@
-package com.mansoor.java.killer_java.practice.challenge;
+package com.mansoor.java.killer_java.challenge;
 
 import java.util.Arrays;
 
