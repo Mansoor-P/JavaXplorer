@@ -1,4 +1,4 @@
-package com.mansoor.java.killer_java.basics.methods;
+package com.mansoor.java.killer_java.corejava.basics.methods;
 class Animal {
     public void makeSound() {
         System.out.println("Some generic sound");
