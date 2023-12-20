@@ -1,4 +1,4 @@
-package com.mansoor.java.killer_java.corejava.datahiding;
+package com.mansoor.java.killer_java.corejava.OOP.datahiding;
 
 public class DataHiding {
     private static int add(int i,int j){
