@@ -1,4 +1,4 @@
-package com.mansoor.java.killer_java.dsa.apnadsa;
+package com.mansoor.java.killer_java.corejava.arrays;
 
 import java.util.Arrays;
 import java.util.Collections;
