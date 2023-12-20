@@ -19,7 +19,6 @@ public class InsertionSort {
                 j--;
             }
             arr[j+1]=current;
-
         }
         printArray(arr);
         System.out.println(Arrays.toString(arr));
