@@ -15,7 +15,6 @@ public class InsertionSort {
                 j--;
             }
         }
-
     }
     public static void main(String[] args) {
         int arr []={2,5,7,1,9,10};
