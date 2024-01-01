@@ -32,8 +32,8 @@ public class Test {
          * */
 
 
-//        Samosa s1=Samosa.INSTANCE;
-        Samosa s1=Samosa.getSamosa();
+        Samosa s1=Samosa.INSTANCE;
+//        Samosa s1=Samosa.getSamosa();
         System.out.println(s1.hashCode());
 
 //        s1.test();
