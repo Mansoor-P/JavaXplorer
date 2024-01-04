@@ -1,4 +1,4 @@
-package com.mansoor.java.killer_java.dsa.sorting;
+package com.mansoor.java.killer_java.dsa.sorting.practice;
 
 public
 class moveZeroes {
