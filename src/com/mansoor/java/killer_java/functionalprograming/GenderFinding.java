@@ -48,7 +48,6 @@ public class GenderFinding {
             this.name = name;
             this.gender = gender;
         }
-
     }
     enum Gender{
         Male,Female
