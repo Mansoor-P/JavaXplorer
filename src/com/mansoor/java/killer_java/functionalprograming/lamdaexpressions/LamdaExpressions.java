@@ -17,6 +17,9 @@ public class LamdaExpressions {
         cs.drive();
 
         // Lambda expression with anonymous function
+        // 3 components : arguments, arrow token, function body
+        // class obj = (arguments) ->{ (function body);};
+
         Cars cs1 = () -> {
             System.out.println("Drive is called by lamda expressions");
         };
