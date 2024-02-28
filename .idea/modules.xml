@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/intellijProjects.iml" filepath="$PROJECT_DIR$/intellijProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/mansoor/java/buildTools/mavenproject/my-ui/my-ui.iml" filepath="$PROJECT_DIR$/src/com/mansoor/java/buildTools/mavenproject/my-ui/my-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/mansoor/java/buildTools/mavenproject/my-util/my-util.iml" filepath="$PROJECT_DIR$/src/com/mansoor/java/buildTools/mavenproject/my-util/my-util.iml" />
+    </modules>
+  </component>
+</project>
