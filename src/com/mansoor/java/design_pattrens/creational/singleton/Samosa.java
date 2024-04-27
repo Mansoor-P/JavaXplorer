@@ -1,4 +1,4 @@
-package com.mansoor.java.design_pattrens.singleton;
+package com.mansoor.java.design_pattrens.creational.singleton;
 
 import java.io.Serializable;
 
