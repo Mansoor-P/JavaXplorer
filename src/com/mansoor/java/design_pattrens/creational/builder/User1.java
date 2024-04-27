@@ -1,4 +1,4 @@
-package com.mansoor.java.design_pattrens.builder;
+package com.mansoor.java.design_pattrens.creational.builder;
 
 public
 class User1 {

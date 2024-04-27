@@ -1,6 +1,4 @@
-package com.mansoor.java.design_pattrens.builder;
-
-import com.mansoor.java.killer_java.functionalprograming.lamdaexpressions.User;
+package com.mansoor.java.design_pattrens.creational.builder;
 
 public
 class Main {
