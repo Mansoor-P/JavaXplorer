@@ -1,4 +1,4 @@
-package com.mansoor.java.socketProgramming;
+package com.mansoor.java.killer_java.socketProgramming;
 
 import java.io.BufferedReader;
 import java.io.IOException;
