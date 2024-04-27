@@ -1,4 +1,4 @@
-package com.mansoor.java.design_pattrens.abstractFactory;
+package com.mansoor.java.design_pattrens.creational.abstractFactory;
 
 abstract public
 class EmployeeAbstractFactory {
