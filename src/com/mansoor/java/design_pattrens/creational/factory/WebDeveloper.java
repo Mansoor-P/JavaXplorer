@@ -1,4 +1,4 @@
-package com.mansoor.java.design_pattrens.factory;
+package com.mansoor.java.design_pattrens.creational.factory;
 
 public
 class WebDeveloper implements  Employee{
