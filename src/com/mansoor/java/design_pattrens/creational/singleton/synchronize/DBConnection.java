@@ -1,4 +1,4 @@
-package com.mansoor.java.design_pattrens.creational.singleton.dbConnection.synchronize;
+package com.mansoor.java.design_pattrens.creational.singleton.synchronize;
 
 public class DBConnection {
     private static DBConnection conObj;
