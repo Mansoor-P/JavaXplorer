@@ -8,6 +8,6 @@ class DeveloperClient {
       Employee employee=  EmployeeFactory.getEmployee("ANDROID DEVELOPER");
         System.out.println(employee);
         int sal=employee.salary();
-        System.out.println(sal  );
+        System.out.println(sal);
     }
 }
