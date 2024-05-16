@@ -4,7 +4,8 @@ public class Student implements Prototype {
     int age;
     private int rollNumber;
     String name;
-    Student(){
+
+    Student() {
 
     }
 
@@ -16,6 +17,6 @@ public class Student implements Prototype {
 
     @Override
     public Prototype clone() {
-        return new Student(age,rollNumber,name);
+        return new Student(age, rollNumber, name);
     }
 }
