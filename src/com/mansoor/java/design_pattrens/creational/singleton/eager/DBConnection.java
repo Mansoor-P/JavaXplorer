@@ -1,4 +1,4 @@
-package com.mansoor.java.design_pattrens.creational.singleton.dbConnection.eager;
+package com.mansoor.java.design_pattrens.creational.singleton.eager;
 
 public class DBConnection {
     private static DBConnection conObj = new DBConnection();
