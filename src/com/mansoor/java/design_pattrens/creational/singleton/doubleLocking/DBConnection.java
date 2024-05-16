@@ -1,4 +1,4 @@
-package com.mansoor.java.design_pattrens.creational.singleton.dbConnection.doubleLocking;
+package com.mansoor.java.design_pattrens.creational.singleton.doubleLocking;
 
 public class DBConnection {
     private static DBConnection conObj;
