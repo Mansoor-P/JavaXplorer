@@ -34,7 +34,7 @@ public class InOrderTraversal {
         root.right.right.right = new Node(10);
 
         InOrderTraversal traversal = new InOrderTraversal();
-        System.out.print("Pre-order traversal: ");
+        System.out.print("In-order traversal: ");
         traversal.inOrder(root);
     }
 }
