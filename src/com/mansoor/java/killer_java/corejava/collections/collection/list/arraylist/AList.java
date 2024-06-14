@@ -2,8 +2,6 @@ package com.mansoor.java.killer_java.corejava.collections.collection.list.arrayl
 
 import java.util.ArrayList;
 
-import static java.lang.Integer.*;
-
 public class AList {
     public static void main(String[] args) {
 
