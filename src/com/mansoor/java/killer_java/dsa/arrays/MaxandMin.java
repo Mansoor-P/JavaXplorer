@@ -1,7 +1,6 @@
-package com.mansoor.java.killer_java.corejava.arrays;
+package com.mansoor.java.killer_java.dsa.arrays;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Scanner;
 
 public class MaxandMin {

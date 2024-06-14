@@ -1,4 +1,4 @@
-package com.mansoor.java.killer_java.corejava.arrays;
+package com.mansoor.java.killer_java.dsa.arrays;
 
 public class ReversetheArray {
     public static void main(String[] args) {

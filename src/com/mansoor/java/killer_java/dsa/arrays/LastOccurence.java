@@ -1,16 +1,21 @@
-package com.mansoor.java.killer_java.corejava.arrays;
+package com.mansoor.java.killer_java.dsa.arrays;
 
 import java.util.Scanner;
 
-public class NoofTimes {
-    static int printarray(int arr[],int x) {
-        int count = 0;
+public class LastOccurence {
+    static  int last(int[]arr,int x){
+        int count =-1;
+//        for (int i = 0; i < arr.length; i++) {
+//            if(arr[i]==x){
+//                count=i;
+//            }
+//        }
         for (int i = 0; i < arr.length; i++) {
-            if(arr[i]==x){
+            if(arr[i]>=x){
                 count++;
             }
         }
-       return count;
+    return count;
     }
 
     public static void main(String[] args) {
@@ -25,9 +30,8 @@ public class NoofTimes {
             arr[i] = sc.nextInt();
         }
 
-        System.out.println("Enter x Value");
-        int x=sc.nextInt();
-
-        System.out.println("count of "+x +" is"+" "+printarray(arr,x));
+        System.out.println("enter x value");
+        int x= sc.nextInt();
+        System.out.println(last(arr,x));
     }
 }
