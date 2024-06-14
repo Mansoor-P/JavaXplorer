@@ -1,4 +1,4 @@
-package com.mansoor.java.killer_java.corejava.basics.methods;
+package com.mansoor.java.killer_java.corejava.methods;
 
 public class MethodOverloading {
     // Method to add two integers
