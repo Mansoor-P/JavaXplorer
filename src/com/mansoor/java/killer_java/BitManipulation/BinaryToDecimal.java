@@ -1,4 +1,4 @@
-package com.mansoor.java.killer_java.corejava.basics.BitManipulation;
+package com.mansoor.java.killer_java.BitManipulation;
 
 import java.util.Scanner;
 
