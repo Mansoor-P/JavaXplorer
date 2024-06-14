@@ -1,4 +1,4 @@
-package com.mansoor.java.killer_java.challenge;
+package com.mansoor.java.killer_java.corejava.basics;
 import java.math.BigInteger;
 
 
