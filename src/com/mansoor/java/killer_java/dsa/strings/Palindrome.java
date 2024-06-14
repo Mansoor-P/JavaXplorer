@@ -1,4 +1,4 @@
-package com.mansoor.java.killer_java.corejava.strings;
+package com.mansoor.java.killer_java.dsa.strings;
 
 public class Palindrome {
     public static void main(String[] args) {
