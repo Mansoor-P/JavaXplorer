@@ -1,7 +1,5 @@
 package com.mansoor.java.killer_java.challenge;
 
-import java.util.Arrays;
-
 public class RotateArray {
 
     public static void main(String[] args) {
